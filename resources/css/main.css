@@ -1,0 +1,31 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+
+
+
+
+@layer components {
+    .buttonV {
+      @apply  
+      text-white no-underline font-bold py-2 px-5 rounded-lg;
+      background-color: #47cdff;
+      box-shadow: 0 2px 7px 0 #b0eaff;
+    }
+
+    .card {
+        @apply bg-white p-5 rounded-lg shadow;
+    }
+    .break{
+        @apply
+        text-sm text-gray-100 text-sm;
+        color: rgba(0,0,0,0.4);
+    }
+    .section {
+      @apply px-4;
+    }
+  }
